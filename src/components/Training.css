@@ -1,0 +1,74 @@
+.counter-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.counter-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.counter-box {
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: #fff;
+    color: #333;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.training-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f5f9ff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.training-section h2 {
+    font-size: 2.2rem;
+    color: #1a202c;
+    margin-bottom: 10px;
+}
+
+.training-section p {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 40px;
+}
+
+.expertise-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.expertise-item {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    font-weight: 500;
+    color: #2d3748;
+    transition: transform 0.3s ease;
+}
+
+.expertise-item:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom right, #667eea, #764ba2);
+    color: white;
+}
